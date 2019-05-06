@@ -1,0 +1,21 @@
+.card-container {
+    display: flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+    break-inside: avoid;
+
+    &-selected {
+        border: 1px solid #d0d0d0;
+        background-color: #f0f0f0;
+        border-radius: 25px;
+    }
+
+    &-image {
+        border-radius: 100%;
+    }
+
+    &-name {
+        padding: 10px;
+        text-transform: capitalize;
+    }
+}
